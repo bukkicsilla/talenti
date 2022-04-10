@@ -98,3 +98,24 @@ section{
   //border: 1px solid gold;
   padding-left: 100px;
 }
+
+.shoppingplace{
+  width: 200px;
+  height: 200px;
+}
+#safeway{
+  background-color: rgb(214, 35, 42);
+}
+#wholefoods{
+  background-color: rgb(0, 103, 75);
+}
+#trader{
+  background-color: rgb(236, 104, 55);
+}
+#last{
+  background-color: gold;
+}
+#shoppingplaces{
+  display: flex;
+  justify-content: space-between;
+}
