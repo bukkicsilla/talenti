@@ -1,5 +1,6 @@
 body{
    background-color: snow;
+   background-color: #3d160f;
    font-family: "Open Sans", sans-serif;
    margin: 0;
 }
@@ -13,14 +14,17 @@ ul{
 }
 #main-header{
   height: 100px;
+  height: 7rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #3d160f;
   padding: 0 20px;
+  padding: 0 4%;
 }
 #logo{
   font-size: 30px;
+  font-size: 2rem;
   font-weight: bold;
   color: snow;
   //text-transform: uppercase;
@@ -34,11 +38,13 @@ ul{
 
 #main-header li{
   margin: 0 20px;
+  margin: 0 1.25rem;
 }
 
 #main-header nav a {
   color: snow;
   font-size: 20px;
+  font-size: 1.25rem;
 }
 #main-header nav a:hover{
   color: gold;
@@ -47,17 +53,21 @@ ul{
 main h1{
   text-align: center;
   color: #3d160f;
-  font-size: 50px;
+  font-size: 48px;
+  font-size: 3rem;
+
 }
 
 #recent{
   width: 90%;
   margin: 40px auto;
+  margin: 2.5rem;
 }
 #recent ul{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  //gap: 100px;
+  //gap: 36px;
+  gap: 3rem;
   margin: 0;
   padding: 0;
 }
@@ -66,10 +76,12 @@ main h1{
   border-radius: 10px;
   overflow: hidden;
   padding: 30px 0 20px;
+  padding: 1.875rem 0 1.25rem;
 
 }
 .icecream img{
   height: 200px;
+  height: 12.5rem;
   //width: 80%;
   //object-fit: cover;
 }
@@ -80,6 +92,7 @@ main h1{
 }
 .item{
   text-align: center;
+  //font-size: 0.5em;
 }
 .item a{
   //color: #3d160f;
@@ -89,6 +102,7 @@ main h1{
   color: snow;
   border-radius: 5px;
   padding: 7px 14px;
+  padding: 0.4375rem 0.875rem;
 }
 .btn:hover {
   background-color: darkred;
@@ -96,7 +110,7 @@ main h1{
 
 section{
   //border: 1px solid gold;
-  padding-left: 100px;
+  padding-left: 80px;
 }
 
 .shoppingplace{
@@ -118,4 +132,18 @@ section{
 #shoppingplaces{
   display: flex;
   justify-content: space-between;
+}
+
+footer{
+  width: 100%;
+  height: 7rem;
+  background-color: #3d160f;
+}
+main{
+  border: 5px solid #6f492f;
+  //border: 5px solid rgb(214, 35, 42);
+  border-radius: 65px;
+  background-color: snow;
+  padding: 32px 0;
+  padding: 2rem 0;
 }
