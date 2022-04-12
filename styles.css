@@ -36,6 +36,7 @@ ul{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  display: none;
 }
 
 .hamburger span{
@@ -69,11 +70,23 @@ ul{
   height: 100%;
   background-color: rgb(29, 26, 27);
   background-color: #3d160f;
-  /*position: fixed;
+  display: none;
+  position: fixed;
   top:  0;
-  left: 0;*/
-}
+  left: 0;
 
+}
+#side-drawer:target{
+  display: block;
+}
+#side-drawer header{
+  height: 7rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  //background-color: #3d160f;
+  padding: 0 4%;
+}
 #side-drawer a{
   color: rgb(253, 239, 213);
   color: snow;
@@ -125,6 +138,9 @@ main h1{
   height: 12.5rem;
   //width: 80%;
   //object-fit: cover;
+}
+.icecream h3{
+  margin: 0 0 2rem 0;
 }
 #recent li{
   width: 200px;
@@ -192,6 +208,9 @@ main{
   #recent ul{
     //grid-template-columns: 1fr;
     grid-template-columns: 100%;
+  }
+  .hamburger{
+    display: flex;
   }
   main h1{
     font-size: 1.5rem;
